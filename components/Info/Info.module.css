@@ -1,0 +1,32 @@
+.image {
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
+}
+.container {
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.Gridcontainer {
+  align-items: center;
+}
+.paper {
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+}
+.paper h1 {
+  color: darkorange;
+  font-style: bold;
+}
+.gridIcons {
+  margin: 20px;
+  color: rgb(207, 46, 135);
+}
+
+@media (max-width: 767px) {
+  .image {
+    visibility: hidden;
+    display: none;
+  }
+}

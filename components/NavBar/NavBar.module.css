@@ -1,0 +1,50 @@
+.navBarContainer {
+  background-color: #fafafa;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  width: 100%;
+  flex-grow: 1;
+  font-family: "Roboto", sans-serif;
+}
+.h2 {
+  color: red;
+}
+.NavBarMain {
+  width: 100%;
+  line-height: 25px;
+
+  background-color: #2196f3;
+  font-size: 18px;
+  color: #fff;
+}
+.gridItem {
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+.navBarIcon {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+  align-items: center;
+  transform: scale(2);
+}
+.mainGrid {
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.h1 {
+  color: #2196f3;
+}
+.navigationContainer {
+  background-color: #2196f3;
+}
+
+@media (max-width: 767px) {
+  .navBarContainer {
+    visibility: hidden;
+    display: none;
+  }
+}
